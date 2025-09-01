@@ -67,4 +67,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-
+
+
+A Checkbox component is created in the project which has Fruits and Vegetables categories.
+
+Each category has multiple items (e.g. Fruits → Apple, Banana, Orange).
+
+If you select a category checkbox, all the items get selected/deselected.
+
+If an individual item gets selected/deselected, the state of the category gets updated accordingly (all selected → category selected, all deselected → category deselected).
+
+Indeterminate state is handled in category checkbox through useEffect (when some items are selected and some are not).
+
+useRef is used so that the indeterminate UI of the checkbox can be displayed properly.
+
+
+app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
