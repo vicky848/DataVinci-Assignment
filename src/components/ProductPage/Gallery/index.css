@@ -1,0 +1,74 @@
+.gallery{
+
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+
+}
+
+
+
+.veg-fruits-basket{
+    width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+  transition: 0.3s ease-in-out;
+
+}
+
+.thumbs{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+   
+
+}
+
+
+
+.thumbs-image{
+     width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+.thumbs-image:hover {
+  transform: scale(1.1);
+}
+
+
+@media screen and(max-width:768px)  {
+
+    .veg-fruits-basket{
+        max-width: 300px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .thumbs-image{
+        width: 70px;
+        height: 70px;
+    }
+
+    
+}
+
+@media screen and (max-width:480px) {
+  .veg-fruits-basket {
+    max-width: 250px;
+  }
+
+  .thumbs-image {
+    width: 60px;
+    height: 60px;
+  }
+}
